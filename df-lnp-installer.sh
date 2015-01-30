@@ -1579,7 +1579,7 @@ read_config_file_or_set_defaults () {
 	# If the install directory is undefined or the config file points to a
 	# directory that no longer exists, use the default.
 	if [ -z "$INSTALL_DIR" ] || [ ! -d "$INSTALL_DIR" ]; then
-		INSTALL_DIR="$HOME/bin/Dwarf Fortress"
+		INSTALL_DIR="$HOME/bin/Dwarf_Fortress"
 	fi
 
 	if [ -z "$DOWNLOAD_DIR" ]; then
